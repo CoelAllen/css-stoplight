@@ -1,0 +1,58 @@
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.screen {
+  background-color: darkgray;
+  height: 100%
+}
+
+.rectangle {
+  height: 15vh;
+  width: 8vh;
+  background-color: black;
+
+}
+
+.box-two {
+  width: 20vh;
+  background-color: black;
+
+}
+
+.light {
+  height: 12vh;
+  width: 12vh;
+  border-radius: 50%;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  transition: ease-in-out .5s;
+
+}
+
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: #44cd44;
+
+}
+
+.green:hover {
+  box-shadow: 0 0 2vh 2vh lightgreen;
+}
+
+.yellow:hover {
+  box-shadow: 0 0 2vh 2vh lightgoldenrodyellow;
+}
+
+.red:hover {
+  box-shadow: 0 0 3vh 3vh darkred;
+}
